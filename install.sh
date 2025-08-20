@@ -1,5 +1,5 @@
 #UBUNTU
-apt-get install node npm cmake gcc fd-find fzf ripgrep curl -y
+apt-get install nodejs npm cmake gcc fd-find fzf ripgrep curl -y
 
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
 
