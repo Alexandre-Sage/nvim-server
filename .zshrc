@@ -1,3 +1,4 @@
+PROMPT="%F{blue}┌[%f%F{cyan}%m%f%F{blue}]─[%f%F{162}%D{%H:%M-%d/%m}%f%F{blue}]─[%f%F{cyan}%d%f%F{blue}]%f"$'\n'"%F{blue}└╼%f%F{162}$USER%f%F{blue} => %f"
 
 alias ls='ls -lh --color=auto'
 alias dir='dir --color=auto'
@@ -39,4 +40,5 @@ setopt appendhistory
 autoload -Uz compinit
 autoload -U promptinit
 compinit
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
